@@ -1,27 +1,16 @@
-# ImGuiDemo
+# ImGui and Extensions Demo
 
-## Introduction
+In this sample shows how to use the ImGui extension in Evergine. The sample includes code for test the ImGui, ImPlot, ImGuizmo and ImNodes.
 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+![Screenshot 01](Screenshots/image1.jpg)
 
-## Getting Started
+![Screenshot 02](Screenshots/image2.jpg)
 
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
+## Build and Run
 
-1. Installation process
-2. Software dependencies
-3. Latest releases
-4. API references
-
-## Build and Test
-
-TODO: Describe and show how to build your code and run the tests.
-
-## Contribute
-
-TODO: Explain how other users and developers can contribute to make your code better.
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops).
+- Required Visual Studio 2022 with.NET6 support
+- Required Graphics card with Raytracing technology _(Ej. NVidia Geforce 2060 or higher)_
+- DirectX12 and Vulkan support. (Change in the program.cs or pass as arguments)
 
 ----
 Powered by **[Evergine](http://www.evergine.com)**
