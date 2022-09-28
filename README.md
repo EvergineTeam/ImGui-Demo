@@ -1,6 +1,6 @@
 # ImGui and Extensions Demo
 
-In this sample shows how to use the ImGui extension in Evergine. The sample includes code for test the ImGui, ImPlot, ImGuizmo and ImNodes.
+This sample shows how to use the ImGui extension in Evergine. The sample includes code for test the ImGui, ImPlot, ImGuizmo and ImNodes.
 
 ![Screenshot 01](Screenshots/image1.jpg)
 
