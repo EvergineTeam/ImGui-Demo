@@ -35,7 +35,6 @@ Items:
       - !Evergine.Framework.Graphics.Camera3D,Evergine.Framework
         Id: 5b10653e-93d2-48e7-884f-a07b2ac173ee
         Aperture: 1.0
-        AspectRatio: 1.13803685
         AutoDepthBounds: false
         AutoExposureEnabled: false
         CameraOrder: 0.0
@@ -43,9 +42,6 @@ Items:
         ClearFlags: All
         ClearStencil: 0
         Compensation: 0.0
-        DepthRange:
-          MaxDepth: 1.0
-          MinDepth: 0.0
         DisplayTag: null
         Exposure: 1.0
         FarPlane: 1000.0
@@ -66,13 +62,6 @@ Items:
         LogLuminanceRange: 12.0
         MinLogLuminance: -10.0
         NearPlane: 0.100000001
-        ScreenViewport:
-          Height: 326.0
-          MaxDepth: 1.0
-          MinDepth: 0.0
-          Width: 371.0
-          X: 0.0
-          Y: 0.0
         Sensitivity: 100.0
         SensorSize:
           X: 36.0
@@ -80,10 +69,6 @@ Items:
         ShutterSpeed: 1.20000005
         TAU: 1.10000002
         TagFilter: null
-        UpVector:
-          X: 0.0
-          Y: 1.0
-          Z: 0.0
         UsePhysicalParameters: false
     Children: []
     Id: 9841b6b3-9c09-4b60-b442-a5c63257ee02
@@ -168,15 +153,15 @@ Items:
         Id: bb44cd62-4d92-418a-8a42-bbc2ed2b6f07
         AsignedTo: Default
         IsEnabled: true
-        Material: dc0e8ed3-5270-40ee-a665-4e1d6f1ca303
+        Material: 63eacceb-d6db-494a-b2e7-a02544c2228f
         UseCopy: false
       - !Evergine.Components.Graphics3D.SphereMesh,Evergine.Components
         Id: 3ef37285-f016-4173-bbf0-278ec1624224
         Diameter: 1.0
         IsEnabled: true
         Tessellation: 32
-        UVHorizontalFlip: false
-        UVVerticalFlip: false
+        UMirror: false
+        VMirror: false
       - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: 1665742b-454f-4cda-9b9b-df6698342e5d
         DebugBoundingbox: true
@@ -262,14 +247,14 @@ Items:
         UseCopy: false
       - !Evergine.Components.Graphics3D.CubeMesh,Evergine.Components
         Id: a86e855b-1b17-410f-85b5-b7863f0bfcd0
-        InitialU: 0.0
-        InitialV: 0.0
         IsEnabled: true
         Size: 1.0
+        UMirror: false
+        UOffset: 0.0
         UTile: 1.0
-        UVHorizontalFlip: false
-        UVVerticalFlip: false
-        YTile: 1.0
+        VMirror: false
+        VOffset: 0.0
+        VTile: 1.0
       - !Evergine.Components.Graphics3D.MeshRenderer,Evergine.Framework
         Id: e6110d20-e50d-4066-b036-c8c709092c35
         DebugBoundingbox: true
