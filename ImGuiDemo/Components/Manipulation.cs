@@ -29,7 +29,7 @@ namespace ImGuiDemo.Components
 
         protected override void Update(TimeSpan gameTime)
         {
-            var io = ImguiNative.igGetIO();
+            var io = ImguiNative.igGetIO_Nil();
             ImguizmoNative.ImGuizmo_SetRect(0, 0, io->DisplaySize.X, io->DisplaySize.Y);
 
             var camera = this.Managers.RenderManager.ActiveCamera3D;

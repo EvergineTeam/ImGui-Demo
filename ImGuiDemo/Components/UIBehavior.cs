@@ -30,14 +30,14 @@ namespace ImGuiDemo.Components
             }
 
             // Imguizmo
-            var io = ImguiNative.igGetIO();
+            var io = ImguiNative.igGetIO_Nil();
             ImguizmoNative.ImGuizmo_SetRect(0, 0, io->DisplaySize.X, io->DisplaySize.Y);
 
             var camera = this.Managers.RenderManager.ActiveCamera3D;
             Matrix4x4 view = camera.View;
             Matrix4x4 project = camera.Projection;
 
-            ImguizmoNative.ImGuizmo_ViewManipulate(view.Pointer(), 2, Vector2.Zero, new Vector2(128, 128), 0x10101010);
+            ImguizmoNative.ImGuizmo_ViewManipulate_Float(view.Pointer(), 2, Vector2.Zero, new Vector2(128, 128), 0x10101010);
 
             Matrix4x4.Invert(ref view, out Matrix4x4 iview);
             var translation = iview.Translation;
