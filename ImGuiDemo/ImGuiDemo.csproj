@@ -1,19 +1,19 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <GenerateEvergineContent>True</GenerateEvergineContent>
     <GenerateEvergineAssets>False</GenerateEvergineAssets>
     <GenerateEvergineScenesCode>True</GenerateEvergineScenesCode>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Evergine.Common" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.Components" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.Framework" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.Mathematics" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.Bullet" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.Targets" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.CodeScenes" Version="2025.10.21.8" />
-    <PackageReference Include="Evergine.ImGui" Version="2025.10.21.8" />
+    <PackageReference Include="Evergine.Common" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.Components" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.Framework" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.Mathematics" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.Bullet" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.Targets" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.CodeScenes" Version="2026.5.21.549-nightly" />
+    <PackageReference Include="Evergine.ImGui" Version="2026.5.21.549-nightly" />
   </ItemGroup>
 </Project>
